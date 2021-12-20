@@ -1,7 +1,8 @@
-from easy_two_sum import main as easy_two_sum_main
-from palindrome_number import main as palindrome_number_main
+from src.two_sum import main as two_sum_main
+from src.palindrome_number import main as palindrome_number_main
+from src.roman_to_integer import main as roman_to_integer_main
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    palindrome_number_main()
+    roman_to_integer_main()
