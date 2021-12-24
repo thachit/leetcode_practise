@@ -35,6 +35,8 @@ class Solution:
         prefix = strs[0]
         for world in strs[1:]:
             prefix = self.compare_two_word(prefix, world)
+            if prefix == "":
+                break
         return prefix
 
 
